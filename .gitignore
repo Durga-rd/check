@@ -1,0 +1,27 @@
+# Node modules (dependencies — not needed in Git)
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Environment variables (secrets)
+.env
+
+# Uploaded files (Render will create uploads folder, no need to track)
+uploads/
+
+# IDE folders
+.vscode/
+.idea/
+
+# OS-specific
+.DS_Store
+Thumbs.db
